@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1584970974 source:e:\coding\roguea\main.cpp
+	"Linear.hpp"
+	<cstdio>
+	<windows.h>
+
+1584233573 e:\coding\roguea\victim.hpp
+	<cstdint>
+	<mutex>
+
+1584234176 source:e:\coding\roguea\victim.cpp
+	"Victim.hpp"
+
+1584971096 e:\coding\roguea\linear.hpp
+
+1584967239 source:e:\coding\roguea\linear.cpp
+	"Linear.hpp"
+	<cmath>
+
