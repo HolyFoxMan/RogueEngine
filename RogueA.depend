@@ -17,3 +17,17 @@
 	"Linear.hpp"
 	<cmath>
 
+1584982361 source:h:\coding\rogue\main.cpp
+	"Linear.hpp"
+	<cstdio>
+	<windows.h>
+
+1584982361 h:\coding\rogue\linear.hpp
+
+1584982361 source:h:\coding\rogue\victim.cpp
+	"Victim.hpp"
+
+1584982361 h:\coding\rogue\victim.hpp
+	<cstdint>
+	<mutex>
+
