@@ -13,6 +13,7 @@ public:
     double x, y;
 
     Vec2D(double x, double y) noexcept;
+    Vec2D(void) noexcept;
 
     Vec2D& operator+= (const Vec2D& v) noexcept;
     Vec2D& operator+= (double scalar) noexcept;
@@ -49,7 +50,6 @@ public:
     friend bool operator<= (const Vec2D& a, const Vec2D& b) noexcept;
 
 private:
-
     mutable double length;  // cache variable
     static constexpr double OUTDATED_LEN = -1.0f;
     static constexpr double BASIS_LEN = 1.0f;
