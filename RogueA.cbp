@@ -36,10 +36,13 @@
 		<Linker>
 			<Add directory="D:/Coding/SFML-2.5.1/lib" />
 		</Linker>
+		<Unit filename="Activity.cpp" />
+		<Unit filename="Activity.hpp" />
 		<Unit filename="Linear.cpp" />
 		<Unit filename="Linear.hpp" />
 		<Unit filename="Victim.cpp" />
 		<Unit filename="Victim.hpp" />
+		<Unit filename="Visibility.hpp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

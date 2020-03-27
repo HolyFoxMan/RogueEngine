@@ -17,10 +17,11 @@
 	"Linear.hpp"
 	<cmath>
 
-1585040174 source:h:\coding\rogue\main.cpp
+1585323977 source:h:\coding\rogue\main.cpp
 	"Linear.hpp"
+	<iostream>
 
-1585036280 h:\coding\rogue\linear.hpp
+1585223671 h:\coding\rogue\linear.hpp
 
 1584982361 source:h:\coding\rogue\victim.cpp
 	"Victim.hpp"
@@ -29,7 +30,12 @@
 	<cstdint>
 	<mutex>
 
-1585040143 source:h:\coding\rogue\linear.cpp
+1585223670 source:h:\coding\rogue\linear.cpp
 	"Linear.hpp"
 	<cmath>
+
+1585337472 source:h:\coding\rogue\activity.cpp
+	"Activity.hpp"
+
+1585337697 h:\coding\rogue\activity.hpp
 

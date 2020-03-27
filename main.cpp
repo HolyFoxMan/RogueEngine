@@ -3,13 +3,42 @@
 //#include <cstdio>
 //#include <windows.h>
 //using namespace Gameplay;
+#include <iostream>
 
+using namespace std;
 
-int main()
+// Вспомогательный класс
+class Object
 {
-   // HANDLE hcon = GetStdHandle(STD_OUTPUT_HANDLE);
+  public:
+    Object() { cout << "Object::ctor()" << endl; }
+   ~Object() { cout << "Object::dtor()" << endl; }
+};
 
-    // for (Vec2D a = {0, 0}; )
+// Базовый класс
+class Base
+{
+  public:
+    Base() { cout << "Base::ctor()" << endl; }
+     virtual ~Base() { cout << "Base::dtor()" << endl; }
+        void print() {}
 
+};
+
+// Производный класс
+class Derived: public Base
+{
+  public:
+    Derived() { cout << "Derived::ctor()" << endl; }
+   ~Derived() { cout << "Derived::dtor()" << endl; }
+    Object  obj;
+};
+
+int main ()
+{
+    Derived *d = new Derived;
+    Base *dp = d;
+    delete dp;
     return 0;
 }
+
